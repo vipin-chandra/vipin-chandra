@@ -1,0 +1,94 @@
+.first{
+    background: black;
+height: 150px;
+width: 1370px;
+padding:10px;
+         margin-right: 600px;
+         margin-inline-start: -50px;
+      margin-top: -50px;
+      display: flex;
+      flex-direction: row;
+
+}
+.btn {
+    background-color:transparent;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 90px 90px;
+    transition: 0.3s;
+    
+  }
+  
+  .btn:hover {
+    background-color: rgb(30, 230, 213);
+    color: white;
+  }
+.lyc{
+    color: white;
+font-size: 100px;
+margin:50px 50px ;
+
+}
+
+
+
+
+
+.second{
+height: 1000px;
+width: 700px;
+border: 2px grey solid;
+margin: 200px;
+margin-left: 300px;
+box-shadow: 2px 2px 2px 2px grey;
+
+}
+.lyrics{
+text-align: center;
+font-size: 20px;
+font-family: monospace;
+}
+
+.second {
+    border-radius: 4px;
+    background-color:transparent;
+    border: none;
+    color: black;
+    text-align: center;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+   
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  .second{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .second:after {
+    
+    font-weight: bolder;
+    
+   
+    position: absolute;
+    opacity: 0;  
+   
+    transition: 0.5s;
+  }
+  
+  .second:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .second:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
